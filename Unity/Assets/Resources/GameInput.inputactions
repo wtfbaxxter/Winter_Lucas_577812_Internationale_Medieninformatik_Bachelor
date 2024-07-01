@@ -1,0 +1,54 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "General",
+            "id": "8a6c7286-bf3a-4332-a185-20de683020c8",
+            "actions": [
+                {
+                    "name": "MenuButton",
+                    "type": "Button",
+                    "id": "0bbfc669-6ca1-4365-8662-9cd77e79031e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "JumpButton",
+                    "type": "Button",
+                    "id": "8834f6b5-a4b9-430b-b8f8-b74d5d0e3fce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "875eedc5-92dd-46a5-a33a-77ff34f81713",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eced540d-cde8-412d-9f8c-9b16d814a937",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JumpButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
